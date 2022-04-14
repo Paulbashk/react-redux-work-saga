@@ -1,0 +1,59 @@
+.App {
+  max-width: 1024px;
+  margin: 64px auto;
+}
+
+.counter {
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.btn {
+  display: block;
+  max-width: 232px;
+  width: 100%;
+  margin-bottom: 24px;
+  height: 56px;
+  border: none;
+  outline: none;
+  background-color: #330000;
+  color: #FF9A00;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  cursor: pointer;
+  transition-property: background-color, color;
+  transition-duration: .3s;
+  transition-timing-function: linear;
+}
+
+.btn:hover {
+  background-color: #FF9A00;
+  color: #330000;
+}
+
+.btn:last-child {
+  margin-bottom: 0;
+}
+.users__user {
+  padding: 16px;
+  border-bottom: 2px solid #FF9A00;
+  cursor: pointer;
+}
+.users__error {
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  font-weight: bold;
+  color: red;
+}
